@@ -1,9 +1,191 @@
-body{
-    background-color: black;
-    color: #fff;
+/* *
+{
+    margin: 0;
+    padding: 0;
+} */
+ ul{
+  list-style-type: none;
+  display: inline;
+  text-align: right;
+ }
+ li{
+  display: inline-block;
+  border: 1px solid black;
+ }
+.header{
+  width: 100px; 
+  height: 80px;
+  background-color: aqua;
+}
+.logo{
+  width: 300px;
+  border-color:darkred;
+  line-height: 80px;
+  text-align: center;
+  float: left;
+}
+.menu{
+  width: 500px;
+  height: 50px;
+  background-color: aliceblue;
+  float: none;
+}
+.bordercss{
+  width: 500px;
+  height: 300px;
+  background-color: gold;
+  border-width: 5px;
+  border-color: black;
+  border-style: dotted;
+  border-radius: 30px;
 }
 
-h2 {
-    background-color: #1ca89d;
-    color: ;
+#fontcss{
+    font-family: "Sofia", sans-serif;
+    font-variant: small-caps;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: bolder;
 }
+
+
+
+#textcss{
+    font-family: "Audiowide", sans-serif;
+   color: brown;
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  direction: ltr; 
+  text-indent: 50px;
+  text-align: right;
+  text-transform: uppercase;
+  
+}
+a:link{
+     
+    color: red;
+  }
+
+  a:link{
+     
+    color: #46e61ecc;
+  }
+
+  a:link{
+     
+    color: #c0c329;
+  }
+  a:link{
+     
+    color: #120e64;
+  }
+#link{
+    text-align: center;
+    color: aqua;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+ 
+ .backimg{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    background-image: url('img2.jpg');
+    background-repeat: no-repeat;
+    background-repeat:repeat-y; 
+    background-size:  100% 100%;
+    background-attachment: fixed;
+    background-attachment: fixed;
+    border: 10px solid black;
+
+      } 
+
+.backimg1{
+    width: 100%;
+    height: 100vh;
+    background-color: blueviolet;
+    background-image: url('img.png.jpg'); 
+    background-repeat: no-repeat;
+    background-repeat:repeat-y; 
+    background-size:  100% 100%;
+    background-attachment: fixed;
+    border: 10px solid black; 
+} 
+ 
+ul{
+  list-style-type: square;
+} 
+
+ol{
+  list-style-type: upper-alpha;
+}
+.boxmodel{
+  width: 400px;
+  height: 400px;
+  background-color: #120e64;
+}
+input{
+  padding: 5px;
+  margin: 10px;
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  margin-top: 50px;
+  margin-left: 20px; */
+}
+
+p{
+  width: 200px;
+  height: 100px;
+  border: 1px solid red;
+  overflow: scroll;
+}
+.father{
+  width: 600px;
+  height: 500px;
+  background-color: aqua;
+  position: relative;
+}
+.child1{
+  width: 100px;
+  height: 80px;
+  background-color: bisque;
+  position: absolute;
+  left: 0;
+}
+
+.child2{
+  width: 100px;
+  height: 80px;
+  background-color: #1f7872;
+  position: absolute;
+  right: 0;
+}
+
+.child3{
+  width: 100px;
+  height: 80px;
+  background-color: rgb(32, 198, 121);
+  position: absolute;
+  bottom: 0;
+}
+
+.child4{
+  width: 100px;
+  height: 80px;
+  background-color: rgb(184, 40, 179);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#my fristid{
+  color: red;
+}
+
+
+/* h2{
+    color: brown;
+} */
